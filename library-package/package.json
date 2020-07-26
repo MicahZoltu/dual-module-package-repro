@@ -1,0 +1,10 @@
+{
+	"name": "library-package",
+	"version": "1.0.0",
+	"main": "./index-cjs.js",
+	"exports": {
+		"import": "./index-esm.js",
+		"require": "./index-cjs.js"
+	},
+	"type": "module"
+}
